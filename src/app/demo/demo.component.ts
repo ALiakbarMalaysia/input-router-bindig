@@ -20,7 +20,7 @@ import { RouterLink } from '@angular/router';
 export class DemoComponent implements OnChanges {
   @Input() sort: 'asc' | 'desc' = 'desc';
 
-  @Input() entiryId: string = '';
+  @Input() entityId: string = '';
 
   @Input() title?: string = '';
   @Input() description?: string = '';
